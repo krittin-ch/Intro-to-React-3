@@ -1,6 +1,7 @@
 import React from "react";
 
-const page = (
+function P1() {
+    return (
     <div>
         <h1>My awesome website in React</h1>
         <h3>Reasons I lov React</h3>
@@ -11,6 +12,7 @@ const page = (
             <li>Reason 4</li>
         </ol>
     </div>
-);
+    );
+};
 
-export default page;
+export default P1;

@@ -7,16 +7,16 @@ import reportWebVitals from './reportWebVitals';
 // Pages
 import P1 from './pages/P1';
 
-// // General React render
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <App />
-// );
-
-// React with append
-const root = ReactDOM.createRoot(document.getElementById('root').append(JSON.stringify(<P1 />)));
+// General React render
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <App />
 );
+
+// // React with append
+// const root = ReactDOM.createRoot(document.getElementById('root').append(JSON.stringify(<P1 />)));
+// root.render(
+//   <App />
+// );
 
 reportWebVitals();

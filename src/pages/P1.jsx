@@ -4,7 +4,7 @@ function P1() {
     return (
     <div>
         <h1>My awesome website in React</h1>
-        <h3>Reasons I lov React</h3>
+        <h3>Reasons I love React</h3>
         <ol>
             <li>Reason 1</li>
             <li>Reason 2</li>

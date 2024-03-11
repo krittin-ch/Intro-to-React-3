@@ -13,6 +13,6 @@ function P1() {
         </ol>
     </div>
     );
-};
+}
 
 export default P1;

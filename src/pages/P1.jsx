@@ -1,17 +1,22 @@
 import React from "react";
 
+// pages
+import Header from './Header';
+import Footer from './Footer';
+import MainContent from "./MainContent";
+
+// using <ul className=""> becuase this is javascript. It comes from
+// const ul = document.createElement("ul")
+// ul.className = ""
+
+
 function P1() {
     return (
-    <div>
-        <h1>My awesome website in React</h1>
-        <h3>Reasons I love React</h3>
-        <ol>
-            <li>Reason 1</li>
-            <li>Reason 2</li>
-            <li>Reason 3</li>
-            <li>Reason 4</li>
-        </ol>
-    </div>
+        <div>
+            <Header />
+            <MainContent />
+            <Footer />
+        </div>
     );
 }
 

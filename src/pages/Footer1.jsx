@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer() {
+function Footer1() {
     return (
         <footer>
             <small>@ 2024 Krittin Development. All rights reserved.</small>
@@ -9,4 +9,4 @@ function Footer() {
 }
 
 
-export default Footer;
+export default Footer1;

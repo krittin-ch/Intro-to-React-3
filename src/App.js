@@ -2,13 +2,13 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Pages
-import P1 from './pages/P1.jsx';
+import Project1 from './pages/Project_1.jsx';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<P1 />} />
+        <Route path='/' element={<Project1 />} />
       </Routes>
     </BrowserRouter>
   );

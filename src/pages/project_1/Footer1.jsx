@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer1() {
     return (
-        <footer>
+        <footer className="footer-1"> 
             <small>@ 2024 Krittin Development. All rights reserved.</small>
         </footer>
     );

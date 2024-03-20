@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// // Pages
-// import P1 from './pages/P1';
+// Default Styles
+import './index.css';
+
+// Styles
+import './assets/styles/project_1/style.css';
+import './assets/styles/project_2/style.css';
 
 // General React render
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <App />
-);
+root.render(<App />);
 
 // // React with append
 // const root = ReactDOM.createRoot(document.getElementById('root').append(JSON.stringify(<P1 />)));

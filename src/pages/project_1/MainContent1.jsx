@@ -11,7 +11,7 @@ function MainContent1() {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprises apps, including mobile apps</li>
             </ul>
-    </main>
+        </main>
     );
 }
 

@@ -79,6 +79,9 @@
     background-color: saddlebrown;
 }
 
-.imgsize {
-    width: 10px;
+.imgsize-2 {
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
 }
